@@ -50,7 +50,7 @@ function setTimer()
             if(distance < 0)
             {
                 clearInterval(counter);
-                alert('Time ended! Go get some coffee, dude!')
+                alert("Time's up! Go get some coffee, dude!")
             }
         },1000);
     }
