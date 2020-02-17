@@ -61,6 +61,9 @@ function resetTimer()
     clearInterval(counter);
     isRunning = false;
 
+    remainTime = 1500000;
+    distance = remainTime;
+
     var endTime = new Date().getTime();
     var endDate = new Date(endTime);
 
