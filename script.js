@@ -60,9 +60,11 @@ function resetTimer()
 {
     clearInterval(counter);
     isRunning = false;
+    document.getElementById('start').innerText = 'Start timer';
 
     remainTime = 1500000;
     distance = remainTime;
+    endTime = new Date().getTime() + remainTime;
 
     var endTime = new Date().getTime();
     var endDate = new Date(endTime);
