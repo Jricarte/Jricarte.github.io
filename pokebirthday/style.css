@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap');
+
+body {
+    font-family: 'Baloo Chettan 2', cursive;
+    background-color: rgb(80,80,80);
+}
+
+.title {
+    text-align: center;
+    
+    font-size: 1.2em;
+    background-color: rgb(153, 35, 35);
+    color: seashell;
+
+    padding-top: 0.1%;
+    padding-bottom: 1%;
+    border-radius: 10px;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+.selection {
+    text-align: center;
+
+    background-color: rgb(31, 31, 31);
+    color: blanchedalmond;
+
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    border-radius: 10px;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+#birthday {
+    font-size: 1.4em;
+    background-color: rgb(60,60,60);
+    color: seashell;
+
+    border-radius: 5px;
+    border-color: rgb(80,80,80);
+    border-style: solid;
+
+    padding: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    margin-bottom: 2%;
+}
+
+#submit {
+    font-size: 1em;
+    
+
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+
+    margin-bottom: 2%;
+}
+
+.info {
+    text-align: center;
+
+    background-color: rgb(212, 212, 212);
+
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    border-radius: 10px;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.info img {
+    width: 25%;
+    height: auto;
+}
