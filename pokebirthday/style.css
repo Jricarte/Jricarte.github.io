@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Baloo Chettan 2', cursive;
-    background-color: rgb(80,80,80);
+    background-color: #333333;
 }
 
 .title {
@@ -18,6 +18,14 @@ body {
     width: 75%;
     margin: auto;
     margin-bottom: 2%;
+}
+
+.title a {
+    font-size: 1.2em;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-weight: bold;
+    text-decoration: none;
+    color: #d2d2d2;
 }
 
 .selection {
@@ -78,4 +86,52 @@ body {
 .info img {
     width: 25%;
     height: auto;
+}
+
+.link div#gotoGithub {
+    float: left;
+
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+
+    width: 10%;
+    margin: auto;
+    margin-left: 1%;
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 15%;
+    padding-bottom: 15%;
+
+    background-color: #4e4e4e;
+    color: #d2d2d2;
+}
+
+.link div#gotoMenu {
+    float: right;
+
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+
+    width: 10%;
+    margin: auto;
+    margin-right: 1%;
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 18.5%;
+    padding-bottom: 18.5%;
+
+    background-color: #4e4e4e;
+    color: #d2d2d2;
+}
+
+.link {
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: #d2d2d2;
+}
+
+.link img {
+    width: 65%;
 }

@@ -1,100 +1,62 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-
 body {
-    background-color: #333333;
-    align-items: center;
+    background-color: #333333;   
 }
 
 .Title {
-    font-size: 1.5em;
-    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    font-family: sans-serif;
 
-    width: 50%;
+    width: 90%;
     margin: auto;
     text-align: center;
     border-radius: 15px;
     margin-top: 27px;
     padding-top: 1px;
-    padding-bottom: 1px;
+    padding-bottom: 3%;
 
     background-color: #4e4e4e;
     color: #d2d2d2;
     
 }
 
-.Cronos {
+a#github{
+    padding: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 10px;
     font-size: 1.5em;
-    font-family: 'Roboto', sans-serif;
-
-    width: 50%;
-    margin: auto;
-    text-align: center;
-    border-radius: 15px;
-    margin-top: 20px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    padding-bottom: 20px;
-
-    background-color: #4e4e4e;
-    color: #d2d2d2
-    
-}
-
-button#start {
-    font-size: 1.3em;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    background-color: #ac1c1c;
-    color: #d2d2d2;
-    width: 45%;
-    border: none;
-    border-radius: 5px;
-    margin-right: 1%;
-    padding: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-button#reset {
-    font-size: 1.3em;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    background-color: #797979;
-    color: #d2d2d2;
-    width: 45%;
-    border: none;
-    border-radius: 5px;
-    margin-left: 1%;
-    padding: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-div#gotoGithub {
-    font-size: 1.5em;
-    font-family: 'Roboto', sans-serif;
-
-    width: 7%;
-    margin: auto;
-    text-align: center;
-    border-radius: 15px;
-    margin-top: 30px;
-    padding-top: 10px;
-    padding-bottom: 7px;
-
-    background-color: #4e4e4e;
-    color: #d2d2d2;
-}
-
-a {
-    font-size: 1em;
-    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     text-decoration: none;
     color: #d2d2d2;
 
+    background-color: #ac1c1c;
 }
 
-img {
-    width: 75%;
+.Projects {
+    width: 90%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.Project {
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
+
+    text-align: center;
+    border-radius: 15px;
+    padding: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    background-color: #ac1c1c;
+    color: #d2d2d2;
+}
+
+
+#pomodoro {
+    float: left;
+}
+
+#pokebirthday {
+    float: right;
 }

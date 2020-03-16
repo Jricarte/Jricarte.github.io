@@ -1,27 +1,38 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>PET Pomodoro</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-
-    <body>
-        <div class="Title">
-            <h1 id="title">PET Pomodoro</h1>
-        </div>
-
-        <div class="Cronos">
-            <h2 id="time">25m 00s</h2>
-            <h3 id="endTime">Now time</h3>
-            <button type="button" id="start" onclick="setTimer()">Start timer</button>
-            <button type="button" id="reset" onclick="resetTimer()">Reset Timer</button>
-        </div>
-    <script src="script.js"></script>
-
-    <div id="gotoGithub">
-        <a class="link" href="https://github.com/jpricarte/jpricarte.github.io">
-            <img class="Github" src='./github.png' /> I'm on Github</a>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jordi small apps</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Title">
+        <h1>Jordi's weekend web projects</h1>
+        <p>
+            I'm not a web programmer, but here I have small webprojects that 
+            I created on some weekends to spend time. <br>
+            All projects are open source and someday may be updated.
+        </p>
+        <br>
+        <a href="https://github.com/jpricarte/jpricarte.github.io" id="github">
+            I'm on github!
+        </a>
     </div>
 
-    </body>
+    <div class="Projects">
+        <a href="./pomodoro/index.html">
+        <div class="Project" id="pomodoro" >
+            <h2>Pomodoro Clock</h2>
+        </div>
+    </a>
+
+    <a href="./pokebirthday/index.html">
+        <div class="Project" id="pokebirthday">
+            <h2>Find my pokemon</h2>
+        </div>
+    </a>
+    </div>    
+    
+</body>
 </html>
