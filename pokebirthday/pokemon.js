@@ -1,14 +1,17 @@
+const ONE_DAY = 86400000
+
 function days_passed(dt) {
     var current = new Date(dt.getTime());
     console.log(current);
     var previous = new Date(dt.getFullYear(), 0, 1);
   
-    return Math.ceil((current - previous + 1) / 86400000);
+    return Math.ceil((current - previous + 1) / ONE_DAY);
 }
 
 function now_day() {
     var birthday = document.getElementById('birthday').value;
     var birthday_date = new Date(birthday);
+    birthday_date.setDate(birthday_date.getDate() + 1);
     return days_passed(birthday_date);
 }
 
